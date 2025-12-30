@@ -1,5 +1,7 @@
-// Ícones SVG para o app de chat
-// Salve cada SVG como um arquivo separado na pasta public/
+/*
+    File: icons.component.js
+    Descrição: Exporta todos os ícones SVG utilizados no app de chat.
+*/
 
 // 1. Ícone de sol (modo claro)
 export const SunIcon = () => (

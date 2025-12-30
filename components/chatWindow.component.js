@@ -1,12 +1,14 @@
-
-
+/*
+    File: chatWindow.component.js
+    Descrição: Exibe todas as mensagens trocadas com o usuário selecionado e o input de envio.
+*/
 import { PlusIcon, EmojiIcon, SendIcon } from '@/components/icons.component';
 import { users } from '@/data-mocke/data';
 
 
 
 export default function ChatWindowComponent({ userId }) {
-    // Exibe todas as mensagens de todas as conversas do usuário selecionado
+
     const user = users.find(u => u.id === userId);
     let messages = [];
     if (user && user.conversations.length > 0) {

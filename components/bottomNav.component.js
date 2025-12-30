@@ -1,3 +1,7 @@
+/*
+    File: bottomNav.component.js
+    Descrição: Barra de navegação inferior para mobile, com ícones de navegação do app.
+*/
 import { ChatIcon, CallIcon, StatusIcon, ConfigIcon } from '@/components/icons.component';
 
 export default function BottomNavComponent() {

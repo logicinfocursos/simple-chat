@@ -1,3 +1,9 @@
+/*
+    File: sidebar.component.js
+    Descrição: Exibe a lista de usuários e conversas, permite selecionar o usuário ativo.
+*/
+import { users } from '@/data-mocke/data';
+import { moreInfoUtil } from '@/utils';
 
 export default function SidebarComponent({ selectedUserId, onSelectUser }) {
     return (
@@ -31,5 +37,5 @@ export default function SidebarComponent({ selectedUserId, onSelectUser }) {
         </aside>
     );
 }
-import { users } from '@/data-mocke/data';import { moreInfoUtil } from '@/utils';
+
 

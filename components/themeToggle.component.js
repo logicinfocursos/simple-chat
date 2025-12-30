@@ -1,3 +1,7 @@
+/*
+    File: themeToggle.component.js
+    Descrição: Componente para alternância entre tema claro e escuro no app.
+*/
 'use client'
 import { useEffect, useState } from 'react';
 import { SunIcon, MoonIcon } from '@/components/icons.component';
