@@ -11,8 +11,8 @@ export const users = [
                 lastMessage: 'Olá, como você está?',
                 lastTime: '10:30',
                 messages: [
-                    { id: 1, type: 'received', from: 1, text: 'Olá! Tudo bem?', time: '10:00' },
-                    { id: 2, type: 'sent', from: 0, text: 'Tudo ótimo por aqui, e com você?', time: '10:05' }
+                    { id: 1, type: 'received', from: 1, text: 'Olá! Tudo bem?', time: '10:00', date: '2025-12-30' },
+                    { id: 2, type: 'sent', from: 0, text: 'Tudo ótimo por aqui, e com você?', time: '10:05', date: '2025-12-30' }
                 ]
             },
             {
@@ -20,8 +20,8 @@ export const users = [
                 lastMessage: 'Vamos marcar uma call?',
                 lastTime: '11:00',
                 messages: [
-                    { id: 3, type: 'sent', from: 0, text: 'Vamos marcar uma call?', time: '11:00' },
-                    { id: 4, type: 'received', from: 1, text: 'Pode ser sim!', time: '11:01' }
+                    { id: 3, type: 'sent', from: 0, text: 'Vamos marcar uma call?', time: '11:00', date: '2025-12-30' },
+                    { id: 4, type: 'received', from: 1, text: 'Pode ser sim!', time: '11:01', date: '2025-12-30' }
                 ]
             },
             {
@@ -29,8 +29,8 @@ export const users = [
                 lastMessage: 'Recebeu o documento?',
                 lastTime: '12:00',
                 messages: [
-                    { id: 5, type: 'sent', from: 0, text: 'Recebeu o documento?', time: '12:00' },
-                    { id: 6, type: 'received', from: 1, text: 'Recebi sim, obrigado!', time: '12:01' }
+                    { id: 5, type: 'sent', from: 0, text: 'Recebeu o documento?', time: '12:00', date: '2025-12-30' },
+                    { id: 6, type: 'received', from: 1, text: 'Recebi sim, obrigado!', time: '12:01', date: '2025-12-30' }
                 ]
             },
             {
@@ -38,7 +38,7 @@ export const users = [
                 lastMessage: 'Até mais!',
                 lastTime: '13:00',
                 messages: [
-                    { id: 7, type: 'received', from: 1, text: 'Até mais!', time: '13:00' }
+                    { id: 7, type: 'received', from: 1, text: 'Até mais!', time: '13:00', date: '2025-12-30' }
                 ]
             }
         ]
@@ -54,7 +54,7 @@ export const users = [
                 lastMessage: 'O projeto está pronto.',
                 lastTime: 'ONTEM',
                 messages: [
-                    { id: 8, type: 'received', from: 2, text: 'O projeto está pronto.', time: 'ONTEM' }
+                    { id: 8, type: 'received', from: 2, text: 'O projeto está pronto.', time: 'ONTEM', date: '2025-12-29' }
                 ]
             },
             {
@@ -62,8 +62,8 @@ export const users = [
                 lastMessage: 'Pode revisar o PR?',
                 lastTime: '09:30',
                 messages: [
-                    { id: 9, type: 'sent', from: 0, text: 'Pode revisar o PR?', time: '09:30' },
-                    { id: 10, type: 'received', from: 2, text: 'Vou olhar agora!', time: '09:31' }
+                    { id: 9, type: 'sent', from: 0, text: 'Pode revisar o PR?', time: '09:30', date: '2025-12-30' },
+                    { id: 10, type: 'received', from: 2, text: 'Vou olhar agora!', time: '09:31', date: '2025-12-30' }
                 ]
             },
             {
@@ -71,8 +71,8 @@ export const users = [
                 lastMessage: 'Enviado por e-mail.',
                 lastTime: '10:00',
                 messages: [
-                    { id: 11, type: 'sent', from: 0, text: 'Enviei por e-mail.', time: '10:00' },
-                    { id: 12, type: 'received', from: 2, text: 'Recebido!', time: '10:01' }
+                    { id: 11, type: 'sent', from: 0, text: 'Enviei por e-mail.', time: '10:00', date: '2025-12-30' },
+                    { id: 12, type: 'received', from: 2, text: 'Recebido!', time: '10:01', date: '2025-12-30' }
                 ]
             },
             {
@@ -80,7 +80,7 @@ export const users = [
                 lastMessage: 'Valeu!',
                 lastTime: '10:30',
                 messages: [
-                    { id: 13, type: 'received', from: 2, text: 'Valeu!', time: '10:30' }
+                    { id: 13, type: 'received', from: 2, text: 'Valeu!', time: '10:30', date: '2025-12-30' }
                 ]
             }
         ]
@@ -96,8 +96,8 @@ export const users = [
                 lastMessage: 'Estou testando a nova interface do chat mobile-first.',
                 lastTime: '10:06',
                 messages: [
-                    { id: 14, type: 'received', from: 3, text: 'Estou testando a nova interface do chat mobile-first.', time: '10:06' },
-                    { id: 15, type: 'sent', from: 0, text: 'Ficou muito boa! O modo escuro está excelente.', time: '10:10' }
+                    { id: 14, type: 'received', from: 3, text: 'Estou testando a nova interface do chat mobile-first.', time: '10:06', date: '2025-12-30' },
+                    { id: 15, type: 'sent', from: 0, text: 'Ficou muito boa! O modo escuro está excelente.', time: '10:10', date: '2025-12-30' }
                 ]
             },
             {
@@ -105,7 +105,7 @@ export const users = [
                 lastMessage: 'Pode me enviar o n8n?',
                 lastTime: '21:15',
                 messages: [
-                    { id: 16, type: 'received', from: 3, text: 'Pode me enviar o n8n?', time: '21:15' }
+                    { id: 16, type: 'received', from: 3, text: 'Pode me enviar o n8n?', time: '21:15', date: '2025-12-30' }
                 ]
             },
             {
@@ -113,8 +113,8 @@ export const users = [
                 lastMessage: 'Obrigada!',
                 lastTime: '22:00',
                 messages: [
-                    { id: 17, type: 'sent', from: 0, text: 'De nada!', time: '22:00' },
-                    { id: 18, type: 'received', from: 3, text: 'Obrigada!', time: '22:01' }
+                    { id: 17, type: 'sent', from: 0, text: 'De nada!', time: '22:00', date: '2025-12-30' },
+                    { id: 18, type: 'received', from: 3, text: 'Obrigada!', time: '22:01', date: '2025-12-30' }
                 ]
             },
             {
@@ -122,7 +122,7 @@ export const users = [
                 lastMessage: 'Até amanhã!',
                 lastTime: '23:00',
                 messages: [
-                    { id: 19, type: 'received', from: 3, text: 'Até amanhã!', time: '23:00' }
+                    { id: 19, type: 'received', from: 3, text: 'Até amanhã!', time: '23:00', date: '2025-12-30' }
                 ]
             }
         ]
@@ -138,7 +138,7 @@ export const users = [
                 lastMessage: 'Beleza!',
                 lastTime: '09:00',
                 messages: [
-                    { id: 20, type: 'received', from: 4, text: 'Beleza!', time: '09:00' }
+                    { id: 20, type: 'received', from: 4, text: 'Beleza!', time: '09:00', date: '2025-12-30' }
                 ]
             },
             {
@@ -146,8 +146,8 @@ export const users = [
                 lastMessage: 'Vamos almoçar?',
                 lastTime: '12:30',
                 messages: [
-                    { id: 21, type: 'sent', from: 0, text: 'Vamos almoçar?', time: '12:30' },
-                    { id: 22, type: 'received', from: 4, text: 'Bora!', time: '12:31' }
+                    { id: 21, type: 'sent', from: 0, text: 'Vamos almoçar?', time: '12:30', date: '2025-12-30' },
+                    { id: 22, type: 'received', from: 4, text: 'Bora!', time: '12:31', date: '2025-12-30' }
                 ]
             },
             {
@@ -155,7 +155,7 @@ export const users = [
                 lastMessage: 'Cheguei no escritório.',
                 lastTime: '08:00',
                 messages: [
-                    { id: 23, type: 'received', from: 4, text: 'Cheguei no escritório.', time: '08:00' }
+                    { id: 23, type: 'received', from: 4, text: 'Cheguei no escritório.', time: '08:00', date: '2025-12-30' }
                 ]
             },
             {
@@ -163,8 +163,8 @@ export const users = [
                 lastMessage: 'Até mais tarde!',
                 lastTime: '18:00',
                 messages: [
-                    { id: 24, type: 'sent', from: 0, text: 'Até mais tarde!', time: '18:00' },
-                    { id: 25, type: 'received', from: 4, text: 'Até!', time: '18:01' }
+                    { id: 24, type: 'sent', from: 0, text: 'Até mais tarde!', time: '18:00', date: '2025-12-30' },
+                    { id: 25, type: 'received', from: 4, text: 'Até!', time: '18:01', date: '2025-12-30' }
                 ]
             }
         ]
