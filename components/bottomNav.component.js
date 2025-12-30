@@ -1,4 +1,4 @@
-import { ChatIcon, CallIcon, StatusIcon, ConfigIcon } from './icons.component';
+import { ChatIcon, CallIcon, StatusIcon, ConfigIcon } from '@/components/icons.component';
 
 export default function BottomNavComponent() {
     return (
