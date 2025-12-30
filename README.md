@@ -3,6 +3,9 @@
 repositório: [https://github.com/logicinfocursos/simple-chat](https://github.com/logicinfocursos/simple-chat)
 demo: [https://simple-chat-cyan.vercel.app/](https://simple-chat-cyan.vercel.app/)
 
+Esse é um app simples de chat (apenas o layout básico) para ser integrado com a sua aplicação.
+
+
 ## Resumo das Funcionalidades
 
 - Interface de chat moderna e responsiva, adaptada para desktop e mobile
