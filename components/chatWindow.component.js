@@ -1,6 +1,6 @@
-import { PlusIcon, EmojiIcon, SendIcon } from './Icons';
+import { PlusIcon, EmojiIcon, SendIcon } from './icons.component';
 
-export default function ChatWindow() {
+export default function ChatWindowComponent() {
     // Estrutura de mensagens para simular agrupamento por remetente
     const messages = [
         { id: 1, type: 'received', avatar: 'https://xsgames.co/randomusers/avatar.php?g=female', name: 'Alice Silva', text: 'Olá! Tudo bem?', time: '10:00', showAvatar: true },
@@ -15,7 +15,7 @@ export default function ChatWindow() {
             {messages.map((msg, idx) => (
                 msg.type === 'received' ? (
                     <div className="chat-message received" key={msg.id}>
-                        
+
                         <div className="msg-bubble tail-left">
                             <div className="msg-text">{msg.text}</div>
                             <div className="msg-time">{msg.time}</div>

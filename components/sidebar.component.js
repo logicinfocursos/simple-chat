@@ -1,4 +1,4 @@
-export default function Sidebar() {
+export default function SidebarComponent() {
     return (
         <aside className="sidebar">
             <div className="sidebar-header">

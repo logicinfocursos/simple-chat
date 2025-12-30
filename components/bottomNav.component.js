@@ -1,6 +1,6 @@
-import { ChatIcon, CallIcon, StatusIcon, ConfigIcon } from './Icons';
+import { ChatIcon, CallIcon, StatusIcon, ConfigIcon } from './icons.component';
 
-export default function BottomNav() {
+export default function BottomNavComponent() {
     return (
         <nav className="bottom-nav">
             <button className="nav-btn active" title="Chats">
